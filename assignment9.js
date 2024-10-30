@@ -1,9 +1,5 @@
 
 
-
-//   .then((result) => console.log("Final result:", result))
-//   .catch((error) => console.error("An error:", error));
-
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
