@@ -1,5 +1,4 @@
 
-
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -19,7 +18,6 @@ function fetchData() {
 fetchData().then(data => console.log("Fetched data:", data));
 
 function processData(data) {
-  // console.log("Processing data:", data);
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(data * 2);
